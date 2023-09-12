@@ -1,0 +1,258 @@
+.contenedorbase {
+    width      : 40%;
+    height     : 93vh;
+    border     : 1px solid #A4A4A4;
+    margin-left: 30%;
+}
+
+
+.contenedorlogo {
+    width : 110px;
+    height: 110px;
+    display   : block;
+    margin    : auto;
+    margin-top: 30px;
+
+}
+
+.contenedortexto {
+    width      : 90%;
+    color      : #0A8014;
+    margin-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-top : 25px;
+
+}
+
+.contenedortexto label {
+    margin-left: 3%;
+    margin-top : 5%;
+}
+
+.contenedortexto input[type="text"] , .contenedortexto input[type="password"]{
+    display: block;
+    width  : 90%;
+    margin : 0 auto;
+    padding: 1.5%;
+    border     : 1px solid #95BF39;
+    
+
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position   : relative;
+    display    : inline-block;
+    width      : 45px;
+    height     : 25px;
+    margin-left: 8%;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width  : 0;
+    height : 0;
+}
+
+/* The slider */
+.slider {
+    position          : absolute;
+    cursor            : pointer;
+    top               : 0;
+    left              : 0;
+    right             : 0;
+    bottom            : 0;
+    background-color  : #ccc;
+    -webkit-transition: .4s;
+    transition        : .4s;
+}
+
+.slider:before {
+    position          : absolute;
+    content           : "";
+    height            : 16px;
+    width             : 16px;
+    left              : 4px;
+    bottom            : 4px;
+    background-color  : white;
+    -webkit-transition: .4s;
+    transition        : .4s;
+}
+
+input:checked+.slider {
+    background-color: #000000;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #ffffff;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform    : translateX(26px);
+    transform        : translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.contenedorBotonesOne {
+    width          : 85%;
+    display        : flex;
+    justify-content: space-between;
+    margin         : 0 auto;
+    margin-top     : 30px;
+}
+
+.botonswitch {
+    width: 50%;
+}
+
+.BotonLast {
+    width          : 50%;
+    display        : flex;
+    justify-content: center;
+
+}
+
+
+.contenedorbuttontext {
+    color      : #0A8014;
+    font-weight: 300;
+    margin-left: 1%;
+    margin-top : 8%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.BotonLast button {
+    width : 40%;
+    height: 30px;
+    background-color: #044504;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.contenedorLineas {
+    width      : 90%;
+    height     : 25px;
+    margin-top : 20px;
+    margin-left: 5%;
+}
+
+.contenedorlinea1 {
+    width : 50%;
+    height: 5px;
+    float : left;
+
+}
+
+.contenedorlinea {
+    width : 50%;
+    height: 5px;
+    float : left;
+
+}
+
+.contenedorlinea hr {
+    height          : 0.1px;
+    width           : 75%;
+    background-color: black;
+}
+
+.contenedorlinea1 hr {
+    height          : 0.1px;
+    width           : 75%;
+    background-color: black;
+}
+
+.contenedorlogin {
+    width     : 100%;
+    height    : 50px;
+    margin-top: 5%;
+
+}
+
+.contenedorgoogle {
+    width          : 50%;
+    height         : auto;
+    float          : left;
+    display        : flex;
+    justify-content: center;
+    position: relative;
+}
+
+.botongoogle img {
+    width: 20px;
+    height: 20px;
+    margin-left: 2%;
+}
+
+
+.contenedorface {
+    width          : 50%;
+    height         : auto;
+    float          : left;
+    display        : flex;
+    justify-content: center;
+}
+
+.botonface img {
+    width: 25px;
+}
+.botongoogle {
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+   border : 1px solid #E2DA5D;
+   box-sizing: border-box !important;
+}
+
+.botonface {
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    border : 1px solid #2D99D9;
+
+}
+
+.contenedorcuenregis {
+    padding-top: 20px;
+}
+
+.textcuenta {
+    width     : 100%;
+    height    : auto;
+    text-align: center;
+    margin-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.textregistro {
+    width      : 100%;
+    height     : auto;
+    text-align : center;
+    color      : #5DA359;
+    font-weight: bold;
+    margin-top : 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedorcopyright{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 12px;
+}

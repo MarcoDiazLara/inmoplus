@@ -1,0 +1,66 @@
+
+<div class="contenedorbase">
+    <form [formGroup]="formLogin" (ngSubmit)="onSubmit()">
+    <div class="contenedorlogo">
+      <img src="../assets/Images/app.png">
+    </div>
+    
+    <div class="contenedortexto">
+      <label>Usuario o Correo Electronico</label>
+      <input type="text" class="form-control" formControlName="email" placeholder="ejemplo@correoejemplo.com">
+    </div>
+  
+    <div class="contenedortexto">
+      <label>Contraseña</label>
+      <input type="password" class="form-control" formControlName="password" placeholder="Contraseña">
+    </div>
+  
+    <div class="contenedorBotonesOne">
+      <div class="botonswitch">
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider round">
+          </span>
+        </label>
+        <label class="contenedorbuttontext">Recordar Contraseña</label>
+      </div>
+      <div class="BotonLast">
+        <button value="Enviar">Iniciar</button>  
+      </div>
+    
+    </div>
+  </form>
+    <div class="contenedorLineas">
+      <div class="contenedorlinea1">
+        <hr>
+      </div>
+      <div class="contenedorlinea">
+        <hr>
+      </div>
+    </div>
+  
+  
+    <div class="contenedorlogin">
+      <div class="contenedorgoogle">
+        <button class="botongoogle" (click)="Google()" name="button" >Login with Google <img src="../assets/Images/google.png"></button>
+      </div>
+      <div class="contenedorface">
+        <button class="botonface" (click)="Facebook()" name="button">Login with Facebook <img src="../assets/Images/facebook.jpg"></button>
+      </div>
+    </div>
+  
+  
+    <div class="contenedorcuenregis">
+      <div class="textcuenta">
+        <label>¿No tienes cuenta y quieres publicar tus inmuebles?</label>
+      </div>
+      <div class="textregistro">
+        <label>Registrate aqui</label>
+      </div>
+    </div>
+  
+  </div>
+  
+  <div class="contenedorcopyright" >
+    <label> © 2018 InmoPlus. All rights reserved DTI Consultores </label>
+  </div>
