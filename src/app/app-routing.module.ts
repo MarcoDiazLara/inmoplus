@@ -17,7 +17,6 @@ const routes: Routes = [
   },
   {path: 'logi', component: LogiComponent },
 
-  { path: 'usuarios', loadChildren: () => import('./usuarios/usuarios.module').then(m => m.UsuariosModule) },
   
 ];
 
@@ -25,4 +24,4 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
